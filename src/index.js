@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 // Putem da aliasuri cand importam.
-import { BrowserRouter as Router} from "react-router-dom";
+import { BrowserRouter as Router} from 'react-router-dom';
 
 ReactDOM.render(
 // Pentru a avea acces la Router in intreaga aplicatie, App devine copilul lui Router.

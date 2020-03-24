@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-const Register = () => {
+function Register() {
     return(
         <div>
             <h1>Register</h1>
@@ -9,7 +9,7 @@ const Register = () => {
             {/* In register vrem sa ne putem intoarce la pagina de login. */}
             <Link to='/login'>Login</Link>
         </div>
-    )
+    );
 }
 
 export default Register;
